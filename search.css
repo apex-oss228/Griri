@@ -1,0 +1,33 @@
+.header_search {
+
+  padding-left: 30px;
+}
+.input-with-button {
+  position: relative;
+  display: flex;
+  height: 40px;
+  align-items: center;
+}
+
+.input-with-button input {
+  border-radius: 10px;
+  font-size: 12px;
+  height: 45px;
+  width: 700px; 
+  transition: width 0.8s ease; 
+  padding-left: 20px;
+  margin-left: 250px;
+  margin-bottom: 55px;
+}
+
+.input-with-button button {
+  margin-top: 5px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin-right: 10px;
+}
